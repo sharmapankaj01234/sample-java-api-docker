@@ -11,9 +11,14 @@ To stop all docker process:
 docker stop $(docker ps -a -q)
 ~~~
 
-To run docker image:
+To run remote docker image:
 ~~~
  docker run --name sample-java-api -p 8083:8083 -d <dockerhub-username>/sample-java-api
+~~~
+
+Run Local image as container:
+~~~
+docker run -d -p 8083:8083 sample-java-api
 ~~~
 
 To pull docker image
