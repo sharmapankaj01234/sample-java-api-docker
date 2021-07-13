@@ -1,3 +1,10 @@
+Command to run:
+
+~~~
+mvn compile
+mvn spring--boot:run
+~~~
+
 # java-api-docker
 This is an example project how to dockerize the java API project
 
