@@ -2,7 +2,8 @@ Command to run:
 
 ~~~
 mvn compile
-mvn spring--boot:run
+mvn spring--boot:run -Dspring-boot.run.arguments="TRACE DEBUG"
+
 ~~~
 
 # java-api-docker
